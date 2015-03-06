@@ -2,7 +2,76 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+    padding: 0;
+	background-color: #ABB7B7;
+	font-size: 14px;
+	line-height: 1.5;
 }
+.navbar-brand {
+	position: absolute;
+	left: 0;
+	top: -20px;
+}
+.jumbotron {
+	background: url('design/images/home-office-336581.jpg') no-repeat center center;
+	background-size: 110%;
+	height: 700px;
+}
+.jumbotron p {
+	background: white;
+	opacity: .7;
+	padding: 70px;
+	text-align: center;
+	margin-top: 482px;
+}
+#tagline {
+	position: absolute;
+	right: 0;
+	top: 451px;
+	color: white;
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 120px;
+	opacity: .7;
+}
+#features p {
+	text-align: center;
+	padding: 80px;
+}
+#features ul {
+	padding: 20px;
+}
+#share {
+	position: absolute;
+	right: 80px;
+	top: 1350px;
+}
+#testimonials {
+	text-align: center;
+	vertical-align: middle;
+	padding: 40px 80px;
+}
+.img-circle {
+	margin: 20px;
+}
+#slogan {
+	background: url(design/images/ipad-407799_1920.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 380px;
+	text-align: center;
+}
+#slogan div {
+	padding: 100px;
+}
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+footer li {
+	display: inline-block;
+	padding: 50px;
+	font-family: Georgia;
+}
+
