@@ -74,4 +74,9 @@ footer li {
 	padding: 50px;
 	font-family: Georgia;
 }
-
+#social {
+	padding-bottom: 50px;
+}
+#social a {
+	padding: 15px;
+}
