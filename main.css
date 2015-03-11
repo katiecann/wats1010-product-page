@@ -3,9 +3,10 @@
 
 body {
     padding: 0;
-	background-color: #ABB7B7;
+	background-color: #AADDDD;
 	font-size: 14px;
 	line-height: 1.5;
+	font-family: 'Sanchez', serif;
 }
 .navbar-brand {
 	position: absolute;
@@ -13,7 +14,6 @@ body {
 	top: -20px;
 }
 .jumbotron {
-	background: url('design/images/home-office-336581.jpg') no-repeat center center;
 	background-size: 110%;
 	height: 700px;
 }
@@ -27,12 +27,15 @@ body {
 #tagline {
 	position: absolute;
 	right: 0;
-	top: 451px;
+	top: 432px;
 	color: white;
-	font-family: Georgia;
+	font-family: 'Permanent Marker', cursive;	
 	font-style: italic;
-	font-size: 120px;
+	font-size: 135px;
 	opacity: .7;
+}
+#features {
+	padding-top: 70px;
 }
 #features p {
 	text-align: center;
@@ -41,25 +44,44 @@ body {
 #features ul {
 	padding: 20px;
 }
-#share {
-	position: absolute;
-	right: 80px;
-	top: 1350px;
+#description {
+	font-size: 18px;
 }
 #testimonials {
 	text-align: center;
 	vertical-align: middle;
-	padding: 40px 80px;
+	padding: 80px;
+}
+#testimonials h2 {
+	border-top: 2px dashed gray;
+	padding-top: 75px;
 }
 .img-circle {
 	margin: 20px;
 }
 #slogan {
-	background: url(design/images/ipad-407799_1920.jpg) no-repeat center center;
 	background-size: cover;
 	width: 100%;
 	height: 380px;
 	text-align: center;
+	background: 
+		linear-gradient(
+      rgba(66, 250, 158, 0.7), 
+      rgba(66, 250, 158, 0.2)
+    ),
+	url(design/images/ipad-407799_1920.jpg) no-repeat center center;
+}
+#slogan:hover {
+	background: #ABF5DA;
+	-webkit-transition-timing-function: cubic-bezier(3, 2, 1, 0);
+    -moz-transition-timing-function: cubic-bezier(3, 2, 1, 0);
+    -o-transition-timing-function: cubic-bezier(3, 2, 1, 0);
+    transition-timing-function: cubic-bezier(3, 2, 1, 0);
+	
+	-webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
 }
 #slogan div {
 	padding: 100px;
@@ -72,7 +94,6 @@ footer {
 footer li {
 	display: inline-block;
 	padding: 50px;
-	font-family: Georgia;
 }
 #social {
 	padding-bottom: 50px;
